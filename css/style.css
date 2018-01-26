@@ -1,0 +1,46 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-image: url("../images/weather.png");
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+.main {
+  font-size: 24px;
+  margin-bottom: 80px;
+  background-color: rgb(255, 255, 255, .6);
+}
+
+#temp {
+  font-size: 48px;
+}
+
+img {
+  min-width: 75px;
+}
+
+p.celsius::after {
+  content: "°C";
+}
+
+p.fahrenheit::after {
+  content: "°F";
+}
+
+.main.row {
+  min-height: 150px;
+}
+
+.spacing {
+  height: 40px;
+}
+
+i.fa {
+  font-size: 72px;
+}
+
+#toggle {
+  font-size: 18px;
+}
